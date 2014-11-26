@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<title>Chelsea's Portfolio</title>
+	</head>
+	<body lang="en">
+		<!--add a bg section/div for the canvas-->
+		<!--header-->
+		<div>
+			<div id="container-nav" class="group">
+				<section id="nav" class="prtf">
+					<nav id="menu">
+						<input type="checkbox" id="toggle-nav"/>
+						<label id="toggle-nav-label" for="toggle-nav"><i class="icon-reorder"></i></label>
+						<div class="box">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="index.html#portfolio">Portfolio</a></li>
+								<li><a href="index.html#about">About</a></li>
+								<li><a href="index.html#contact">Contact</a></li>
+							</ul>
+						</div>					
+					</nav>
+				</section>
+			</div>		
+			<div id="container-header-prtf" class="prtf3 group">
+				<section>
+					<header id="masthead" class="prtf">
+						<h1>Mean</h1>
+						<h2>e-commerce website</h2>
+						<br>
+						<br>
+						<p>This is a demo/side project I worked on which was build upon the new web development stack- MEAN. It basically utilizes the framework mean.io (http://mean.io/) and is hosted at Heroku. For demonstration purpose, this website has basic e-commerce features such as viewing products, shopping cart and check out module. Additionally, there's an admin module where admin user can add more products to the inventory.</p>
+						<br>
+						<p>The source code is hosted at <a href="https://github.com/chenyaoli19/meanshop"><b>Github</b></a> and you may see <a href="http://quiet-taiga-8190.herokuapp.com/"><b>demo here</b></a></p>
+					</header>
+				</section>
+				<section>
+					<img src="img/logos.png">
+				</section>				
+			</div>
+		</div>		
+		<!--main body-->
+		<div id="container-content">
+			<article id="content">
+				<section class="group prtf3-1"> 
+					<section class="left">
+						<a href="http://quiet-taiga-8190.herokuapp.com/"><img src="img/web1.png" alt="Landing page"></a>
+					</section>
+					<section class="right">
+						<a href="http://quiet-taiga-8190.herokuapp.com/"><img src="img/web2.png"></a>
+						<header>
+							<h2>Exploring the demo</h2>
+							<p> 1. Click on "Register" link on the upper right of the screen.<br>
+								2. Enter your username and password to register<br>
+								3. Login to explore<br>
+								4. You may view products, add/delete product to/from cart, checkout with billing information or view your order history.</p>
+						</header>
+					</section>
+				</section>
+				<section class="group prtf3-2">
+					<section class="f-1">
+						<header>
+							<h2>More</h2>
+							<p><b>Key features</b></p>
+							<br>
+							<p>
+							Basic role based anthentication. Users can register and login to the app.<br>
+							<br>
+							Basic shopping cart functionality. Browse products, add/delete to/from cart, update shipping/billing information, keep track of the order history.<br>
+							<br>
+							Admin also has a feature as adding more products in the front end app. Currently this is pre-defined in the database file, so if you download the source code and running the app locally, you need to register an admin user and assign 'admin' to its roles.
+							</p>
+						</header>
+					</section>
+					<section class="f-2">
+						<img src="img/grids.png" class="group hide">
+						<a href="http://quiet-taiga-8190.herokuapp.com/"><img src="img/web3.png"></a>
+					</section>
+					<section class="f-3">
+						<a href="http://quiet-taiga-8190.herokuapp.com/"><img src="img/web4.png"></a>
+						<header>
+							<h2>Mean Stack</h2>
+							<p>A Friendly & Fun Javascript Fullstack for the web application- MongoDB, ExpressJS, AngularJS, Node.js</p>
+						</header>
+						<a href="http://quiet-taiga-8190.herokuapp.com/"><img src="img/web5.png"></a>
+					</section>
+				</section>
+			</article>
+		</div>
+		<div id="container-footer">
+			<footer id="colophon">
+				<p class="small">©2014 all rights reserved</p>
+			</footer>
+		</div>
+		<!--make media query work on IE 8 and less-->
+		<script src="js/respond.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->		
+	</body>
+</html>

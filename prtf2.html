@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<title>Chelsea's Portfolio</title>
+	</head>
+	<body lang="en">
+		<!--add a bg section/div for the canvas-->
+		<!--header-->
+		<div>
+			<div id="container-nav" class="group">
+				<section id="nav" class="prtf">
+					<nav id="menu">
+						<input type="checkbox" id="toggle-nav"/>
+						<label id="toggle-nav-label" for="toggle-nav"><i class="icon-reorder"></i></label>
+						<div class="box">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="index.html#portfolio">Portfolio</a></li>
+								<li><a href="index.html#about">About</a></li>
+								<li><a href="index.html#contact">Contact</a></li>
+							</ul>
+						</div>					
+					</nav>
+				</section>
+			</div>		
+			<div id="container-header-prtf" class="prtf2 group">
+				<section>
+					<header id="masthead" class="prtf">
+						<h1>Surface Magazine</h1>
+						<h2>A mobile publishing Magazine</h2>
+						<br>
+						<br>
+						<p>This is a demo project I worked on using the mobile publishing platform-<a href="http://pugpig.com/">Pugpig</a>. Pugpig is a platform that gives mobile publishing team the tools they need to create beautiful edition based apps at low cost.</p>
+						<br>
+						<p>I designed and built this e-magazine using Pugpig's SDK.</p>
+
+					</header>
+				</section>
+				<section>
+					<img src="img/ipad1.png">
+				</section>				
+			</div>
+		</div>		
+		<!--main body-->
+		<div id="container-content">
+			<article id="content">
+				<section id="d-1" class="group prtf2"> 
+					<section class="left">
+						<img src="img/ipad2.png" alt="Landing page" width="450">
+					</section>
+					<section class="right">
+						<header>
+							<h1>Design</h1>
+							<h2>HTML5 & CSS3 Supported Mobile Magazine</h2>
+							<p>It's a fun experience building this magazine app from scratch. I designed the layout, chose the content from one of my favorite magazines <a href="http://www.surfacemag.com/">surface</a>, and utilized new features in HTML5 and CSS3 to make this interactive and sleek demo magazine app.</p>
+							<p>Features include:</p>
+							<ul>
+								<li>Semantic HTML5 Markup</li>
+								<li>CSS3 Animation/Transitions
+								<li>Media Queries</li>
+								<li>HTML5 Vedio Support</li>
+								<li>JQuery lightbox/image slider</li>
+								<li>Responsive Web Design</li>
+							</ul>
+						</header>
+					</section>
+				</section>
+				<section id="d-2" class="group center prtf2">
+					<!--beginning of the image slider. delete if needed-->
+					<ul class="bxslider">
+						<li><img src="img/ipad3.png" width="600"></li>
+						<li><img src="img/ipad4.png" width="600"></li>
+						<li><img src="img/ipad5.png" width="600"></li>
+						<li><img src="img/ipad6.png" width="600"></li>
+					</ul>
+					<!--end of the slider code-->
+				</section>
+			</article>
+		</div>
+		<div id="container-footer">
+			<footer id="colophon">
+				<p class="small">©2014 all rights reserved</p>
+			</footer>
+		</div>
+		<!--make media query work on IE 8 and less-->
+		<script src="js/respond.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->	
+	</body>
+</html>
